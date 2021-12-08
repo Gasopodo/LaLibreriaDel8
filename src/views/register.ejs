@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<%- include("./partials/head") %>
+
+<body>
+
+    <!-- Header -->
+    <%- include("./partials/header") %>
+
+    <!-- INICIO CAJA GRANDE CREA TU CUENTA -->
+    <main>
+
+
+        <form action="#" method="post" class="formReg">
+            <h2 class="tituloInicio">CREA TU CUENTA</h2>
+
+            <h3>Información personal</h3>
+
+            <!--  <label for="nombre">Nombre</label> -->
+            <p><input type="text" name="nombre" id="nombre" placeholder="Nombre"></p>
+
+            <!-- <label for="apellido">Apellido</label> -->
+            <p><input type="text" name="apellido" id="apellido" placeholder="Apellido"></p>
+
+            <!-- <label for="mail">E-mail</label>-->
+            <p><input type="email" name="mail" id="mail" placeholder="email"></p>
+
+            <!-- <label for="doc">N°Documento</label>-->
+            <p><input type="number" name="NumDocumento" id="doc" placeholder="Numero de Documento"></p>         
+
+            <h3>Información de inicio de sesión</h3>
+
+            <!-- <label for="password">Contraseña</label>-->
+            <p><input type="password" name="password" id="password" placeholder="Contraseña"></p>
+
+            <!-- <label for="confirmPassword">Confirmar la contraseña</label>-->
+            <p><input type="password" name="confirmPassword" id="confirmPassword" placeholder="Repetir Contraseña"></p>  
+
+            <h3>Suscripcion al boletin</h3>
+
+            <label for="newsletter">¡Quiero recibir el newsletter!</label>
+            <input type="checkbox" name="newsletter">
+            
+        
+        
+        <div class="sendButton">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    </main>
+    <!-- FIN CAJA GRANDE CREA TU CUENTA -->
+
+    <!-- Footer -->
+    <%- include("./partials/footer") %>
+    
+</body>
+</html>

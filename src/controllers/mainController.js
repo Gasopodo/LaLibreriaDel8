@@ -1,14 +1,14 @@
 const controller = {
     index: (req,res) => {
-        res.render("index");
+        res.render("users/index");
     },
 
     login: (req,res) => {
-        res.render("login");
+        res.render("users/login");
     },
 
     register: (req,res) =>{
-        res.render("register");
+        res.render("users/register");
     }
 }
 

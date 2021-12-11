@@ -2,8 +2,8 @@
 const express = require('express');
 const app = express();
 
-const mainRouter = require("./routes/main");
-const productsRouter = require("./routes/products");
+const mainRouter = require("./routes/mainRouter");
+const productsRouter = require("./routes/productsRouter");
 
 app.use(express.static( "../public"));
 app.set("view engine", "ejs");

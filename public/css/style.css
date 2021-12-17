@@ -26,7 +26,11 @@ body{
 .top-header {
     width: 100%;
 }
+.main-header {
+    display: flex;
+}
 header{
+    
     background: #EAC926;
     
 }

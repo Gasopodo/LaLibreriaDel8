@@ -1,27 +1,27 @@
 <header>
-    <header class="main-header">
-    <div class="top-header">
-       
-        <div>
- 
-            <ul class="herramientas">
-                <div class="logo">
-                    <img src="/img/logo.jpeg" alt="Logo libreria">
-                </div>
-                <li><a href="/register">Crear cuenta</a></li>
-                <li><a href="/login">Ingresá</a></li>
-                <li><a href="productCart">Mis compras</a></li>
-             </ul>
-        </div>
- 
-        <div class="buscador">
-            <p>Encontrá tus libros favoritos</p>
-            <input type="text">
-        </div>
-       
-        <p class="slogan">Bienvenido al sitio de libros que siempre soñaste</p>
-    </div>
-    <nav>
+    <nav class="navbar">
+        <nav class="navbar-left">
+            <div><a onclick="openNav()" class="btn-menu" href="#"><i class="fas fa-bars"></i></a></div>
+            <div class="logo"><a href="/"><img src="/img/logo.jpeg" alt=""></a></div>
+            <div class="logo"><a href="/"><img width="50%" alt0="></a></div>
+            <div class="logo-texto"><a href="/">La librería del 8</a></div>
+        </nav>
+        <div class="search-box-container">
+            <div class="search-box">
+                <input type="input" name="" id="" placeholder="Buscar...">
+                <button class="button-search"><i class="fas fa-search"></i></button>
+            </div>
+        
+        <nav class="navbar-right">
+            <div class="btn-user"><a href="/users/login"><i class="fas fa-user"></i></a></div>
+            <div class="btn-cart">
+                <a href="/orders/cart"><i class="fas fa-shopping-cart"></i></a>
+                <div class="cart-qty"></div>
+            </div>
+        </nav>
+    
+    
+    
         <ul class="herramientas2">
             <li><a href="#">Novedades</a></li>
             <li><a href="#">Los más vendidos</a></li>
@@ -29,7 +29,6 @@
             <li><a href="#">Destacados en ebooks</a></li>
         </ul>
     </nav>
-    <!-- <div class="burger-menu">
-        <i class="fa fa-bars burger"></i>
-    </div>-->
+
+
 </header>

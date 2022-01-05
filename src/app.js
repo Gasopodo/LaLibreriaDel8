@@ -18,3 +18,5 @@ app.use("/products",productsRouter);
 app.listen(3000, ()=>{
     console.log('Servidor corriendo en el puerto 3000');
 });
+
+/* en este archivo solo los recursos y prefijos*/
